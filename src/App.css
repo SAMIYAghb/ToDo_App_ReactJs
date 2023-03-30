@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.task-bg{
+  background-color: #555;
+  color: #fff;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.done{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #00ff89;
+}
+.icons span:hover{
+  color: yellow;
+}
